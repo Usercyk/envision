@@ -1,0 +1,3 @@
+accessWidener	v2	named
+extendable class net/minecraft/world/gen/chunk/NoiseChunkGenerator
+accessible method net/minecraft/loot/context/LootContextTypes register (Ljava/lang/String;Ljava/util/function/Consumer;)Lnet/minecraft/loot/context/LootContextType;

@@ -1,0 +1,48 @@
+{
+  "type": "envision:rummage",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.025,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.001
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "envision:cobblestone_shard",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "envision:cobbled_deepslate_shard",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "envision:diorite_shard",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "envision:andesite_shard",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "envision:granite_shard",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "envision:tuff_shard",
+          "weight": 15
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

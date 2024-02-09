@@ -1,0 +1,39 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "type": "envision:filled_chunk",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "preset": "minecraft:overworld"
+        },
+        "filling_block": "minecraft:stone",
+        "settings": "minecraft:overworld"
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "type": "envision:filled_chunk",
+        "biome_source": {
+          "type": "minecraft:the_end"
+        },
+        "filling_block": "minecraft:end_stone",
+        "settings": "minecraft:end"
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "minecraft:the_nether",
+      "generator": {
+        "type": "envision:filled_chunk",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "preset": "minecraft:nether"
+        },
+        "filling_block": "minecraft:netherrack",
+        "settings": "minecraft:nether"
+      }
+    }
+  }
+}
