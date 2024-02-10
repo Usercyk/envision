@@ -32,10 +32,6 @@ public class RummageToolItem extends ToolItem {
         super(material, settings);
     }
 
-    private int getRummageLevel() {
-        return this.getMaterial().getMiningLevel() + 1;
-    }
-
     @Override
     public boolean isSuitableFor(BlockState state) {
         return state.isIn(RummageManager.RUMMAGE_ABLE);
