@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "s": {
+      "item": "minecraft:chest"
+    },
+    "x": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "x x",
+    "xsx",
+    " x "
+  ],
+  "result": {
+    "item": "envision:wooden_hopper"
+  }
+}

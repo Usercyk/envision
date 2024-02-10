@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "  x",
+    " s ",
+    "s  "
+  ],
+  "result": {
+    "item": "envision:iron_rummage_tool"
+  }
+}

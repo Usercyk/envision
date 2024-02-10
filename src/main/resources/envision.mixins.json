@@ -4,6 +4,7 @@
   "package": "me.usercyk.envision.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "canBreakIntoShards",
     "CheckCeiling",
     "SpawnPlatformGen"
   ],

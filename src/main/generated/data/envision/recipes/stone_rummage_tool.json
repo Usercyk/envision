@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "tag": "minecraft:stone_tool_materials"
+    }
+  },
+  "pattern": [
+    "  x",
+    " s ",
+    "s  "
+  ],
+  "result": {
+    "item": "envision:stone_rummage_tool"
+  }
+}

@@ -17,6 +17,8 @@ public class EnvisionDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(EnvisionModelProvider::new);
         pack.addProvider(EnvisionRecipeProvider::new);
         pack.addProvider(EnvisionRummageLootProvider::new);
-        pack.addProvider(EnvisionTagProvider::new);
+        pack.addProvider(EnvisionBlockTagProvider::new);
+        pack.addProvider(ShardLootTableProvider::new);
+        pack.addProvider(EnvisionItemTagProvider::new);
     }
 }

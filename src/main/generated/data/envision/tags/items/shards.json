@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "envision:andesite_shard",
+    "envision:basalt_shard",
+    "envision:blackstone_shard",
+    "envision:cobblestone_shard",
+    "envision:cobbled_deepslate_shard",
+    "envision:deepslate_shard",
+    "envision:diorite_shard",
+    "envision:end_stone_shard",
+    "envision:granite_shard",
+    "envision:netherrack_shard",
+    "envision:stone_shard",
+    "envision:tuff_shard"
+  ]
+}
